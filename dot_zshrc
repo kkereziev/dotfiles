@@ -139,4 +139,4 @@ export PATH="$PATH:$HOME/.local/bin"
 
 alias v=nvim
 eval "$(direnv hook zsh)"
-
+export TESTCONTAINERS_RYUK_DISABLED=true
